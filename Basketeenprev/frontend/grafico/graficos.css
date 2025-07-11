@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    background-color: #FF6F00;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+main{
+    background-color: #2A3434;
+    height: 100vh;
+}
+
+footer{
+    background-color: #FF6F00;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icones{
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.icones_direita{
+    margin-left: 45vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vw;
+}
+
+.contatos{
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-right: 2rem;
+    margin-top: 2vh;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+/* ------------------------------------- */
+
+/* Barra de pesquisa */
+
+.search__input {
+    font-family: inherit;
+    font-size: inherit;
+    background-color: #f4f2f2;
+    border: none;
+    color: #646464;
+    padding: 0.7vw 1vw;
+    border-radius: 30px;
+    width: 15vw;
+    transition: all ease-in-out .5s;
+    margin-right: -5vh;
+  }
+  
+  .search__input:hover, .search__input:focus {
+    box-shadow: 0 0 1em #00000013;
+  }
+  
+  .search__input:focus {
+    outline: none;
+    background-color: #f0eeee;
+  }
+  
+  .search__input::-webkit-input-placeholder {
+    font-weight: 100;
+    color: #ccc;
+  }
+  
+  .search__input:focus + .search__button {
+    background-color: #f0eeee;
+  }
+  
+  .search__button {
+    border: none;
+    background-color: #f4f2f2;
+    margin-top: 1vh;
+  }
+  
+  .search__button:hover {
+    cursor: pointer;
+  }
+  
+  .search__icon {
+    height: 1.3em;
+    width: 1.3em;
+  }
+
+/* ----------------------------------- */
+
+  .chart-container {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+   #lesoesChart{
+    display: flex;
+    justify-content: space-evenly;
+   }
+
+   .chart-container {
+    max-width: 300px;
+    margin: 0 auto;
+    height: 300px;
+  }
+  
+  .custom-legend {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    max-width: 400px;
+    margin: 20px auto 0;
+    text-align: left;
+  }
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: #FF6F00;
+}
+
+.subtitle{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+.link{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+
+.link a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.legenda{
+    display: flex;
+    justify-content: center;
+}

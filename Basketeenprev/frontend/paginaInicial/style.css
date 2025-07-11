@@ -1,0 +1,227 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    background-color: #FF6F00;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+main{
+    background-color: #2A3434;
+    height: 80vh;
+}
+
+footer{
+    background-color: #FF6F00;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icones{
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.icones_direita{
+    margin-left: 45vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vw;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    color: #D17F1B;
+}
+
+.contatos{
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-right: 2rem;
+    margin-top: 2vh;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.texto{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+    width: 50vw;
+    margin-top: 5vh;
+}
+
+.img_paginaInicial{
+    display: flex;
+    /* align-items: center; */
+    border-radius: 10px;
+    float: right;
+    margin-right: 1vw;
+}
+
+img{
+    margin-left: 7vw;
+    margin-top: 10vh;
+}
+
+
+/* ------------------------------------- */
+
+/* Barra de pesquisa */
+
+  .search__input {
+    font-family: inherit;
+    font-size: inherit;
+    background-color: #f4f2f2;
+    border: none;
+    color: #646464;
+    padding: 0.7vw 1vw;
+    border-radius: 30px;
+    width: 15vw;
+    transition: all ease-in-out .5s;
+    margin-right: -5vh;
+  }
+  
+  .search__input:hover, .search__input:focus {
+    box-shadow: 0 0 1em #00000013;
+  }
+  
+  .search__input:focus {
+    outline: none;
+    background-color: #f0eeee;
+  }
+  
+  .search__input::-webkit-input-placeholder {
+    font-weight: 100;
+    color: #ccc;
+  }
+  
+  .search__input:focus + .search__button {
+    background-color: #f0eeee;
+  }
+  
+  .search__button {
+    border: none;
+    background-color: #f4f2f2;
+    margin-top: 1vh;
+  }
+  
+  .search__button:hover {
+    cursor: pointer;
+  }
+  
+  .search__icon {
+    height: 1.3em;
+    width: 1.3em;
+  }
+
+
+/* ----------------------------------- */
+
+/* Caixa de comentários */
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tituloComentario {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .form {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .group {
+    position: relative;
+  }
+  
+  .form .group label {
+    font-size: 14px;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    transition: all .3s ease;
+  }
+  
+  .form .group input,
+  .form .group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 2vh;
+    outline: 0;
+    width: 100%;
+    background-color: transparent;
+  }
+  
+  .form .group input:placeholder-shown+ label, .form .group textarea:placeholder-shown +label {
+    top: 10px;
+    background-color: transparent;
+  }
+  
+  .form .group input:focus,
+  .form .group textarea:focus {
+    border-color: #FF6F00;
+  }
+  
+  .form .group input:focus+ label, .form .group textarea:focus +label {
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    color: #FF6F00;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .form .group textarea {
+    resize: none;
+    height: 10vh;
+  }
+  
+  .form button {
+    background-color: #FF6723;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .form button:hover {
+    background-color: #fa5204;
+  }
